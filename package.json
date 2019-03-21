@@ -1,0 +1,38 @@
+{
+  "name": "school",
+  "version": "0.0.0",
+  "private": true,
+  "engines": { 
+    "node": "10.13.0" 
+  },
+  "scripts": {
+    "start": "pm2 start ./bin/www --watch",    
+    "heroku-postbuild": "npm install --production"
+  },
+  "dependencies": {
+    "bcrypt": "3.0.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "ejs": "~2.5.7",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "http-errors": "~1.6.2",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.23.0",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.6.5",
+    "node-fetch": "^2.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.8.1",
+    "pg-hstore": "^2.3.2",
+    "pm2": "^3.2.9",
+    "read-excel-file": "^2.0.7",
+    "sequelize": "^4.42.0",
+    "touch": "^3.1.0",
+    "validator": "^10.11.0"
+  }
+  
+}
