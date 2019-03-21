@@ -1,5 +1,5 @@
 const Student = require('../models').student;
-const bcrypt = require('../app.js').bcrypt
+const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
 module.exports = {
