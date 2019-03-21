@@ -15,10 +15,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "kejarjuara",
-    "password": "cerdasgemilang",
-    "database": "school",
-    "host": "116.197.131.203",
+    "username": "uknkfgkgxcfuko",
+    "password": "3064d27474a5ce3f65ebdbb85b1470e44a97b49ce3c332cf990bdcb225991ba6",
+    "database": "d1a2rhd9shqra",
+    "host": "ec2-23-23-195-205.compute-1.amazonaws.com",
     "port":"5432",
     "dialect": "postgres"
   }
